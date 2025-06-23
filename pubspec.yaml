@@ -1,0 +1,32 @@
+# pubspec.yaml
+
+name: tugas3bintang
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # PASTIKAN BARIS INI ADA DAN SESUAI
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0 # PASTIKAN INI ADA UNTUK STATE MANAGEMENT
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Jika nanti Anda ingin menambahkan gambar atau font, tambahkan di sini:
+  # assets:
+  #   - images/
+  # fonts:
+  #   - family: YourFont
+  #     fonts:
+  #       - asset: fonts/YourFont-Regular.ttf
